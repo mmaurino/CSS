@@ -1,4 +1,5 @@
-﻿/*
+/*
+Esta pagina esta buena para CSS www.exasoluciones.com/inicio/tutoriales/css
 En el Archivo HTML deberia poner lo siguiente 
 <link href="styles/style.css" rel="stylesheet" type="text/css" />
 */
@@ -52,11 +53,47 @@ ul{
 
 /*PARRAFOS VAN CON P Y ALGUNAS PROPIEDADES QUE PODEMOS ESPECIFICAR*/
 p{
+
 	background-color: aqua;
 	color: aliceblue;
 	border: 2px solid red;
-	
 }
+
+/*TABLAS, THEAD Y TBODY Y CARACTERISTICAS DE LAS MISMAS
+  <TR> Son los elementos de una fila
+  y dentro especificamos con <td> cada uno en especifico 
+  Ejemplo:
+  <tr>                              _Hola   _
+	<td> 1 </td>                  ! 1 ! 2 !
+	                                -   -							
+	<td> 2 </td>    
+	<caption> Hola </caption>              
+  </tr>
+  COLLAPSE: significa si el borde está pegado o no collapse/separate
+  SPACING: espacio entre celdas 
+  CAPTION SIDE: posición de la leyenda de la tabla
+  PADDING: espacio que haydentro del campo de texto*/
+
+table{
+	border-collapse: collapse;
+	border-spacing: 1px;
+	caption-side: top;
+	background-color:yellow;
+	padding: 12px 20px;
+}
+
+/*FORMULARIOS Y TIPOS DE LOS FORMULARIOS
+  Type= text se refiere a los textos
+  Type= password se refiere a las contraseñas
+  Type= number se refiere a los numeros
+  Type= button se refiere a los botones
+  Podemos poner varios separados por comas como acá abajo
+
+*/
+input[type=text], input[type=number]{
+
+}
+
 
 body
 {}
