@@ -1,0 +1,62 @@
+﻿/*
+En el Archivo HTML deberia poner lo siguiente 
+<link href="styles/style.css" rel="stylesheet" type="text/css" />
+*/
+
+/*
+REGLA: P es el selector de lo que queremos seleccionar
+	   COLOR es la propiedad que queremos modificar
+	   BLUE es el VALOR que le queremos dar a esa propiedad
+
+p {
+	color: blue;
+}
+
+*/
+
+/* ETIQUETA DIV: todas las etiquetas DIV tendrán color rojo.
+   Si en el HTMl pusimos <div id='hola'> podriamos poner #hola sin poner el div				*/
+div{
+	color: red
+	
+}
+/* Titulos y algunas propiedades de letras FUENTE*/
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12;
+	font-style: normal;
+	font-weight: bolder;
+
+}
+h2{
+}
+h3{}
+
+/*LISTAS Y DISTINTOS TIPOS DE "COSOS" QUE VAN ANTES DE CADA ELEMENTO DE LA LISTA*/
+ul{
+	list-style: circle;
+	list-style: decimal;
+	list-style: square;
+}
+li{
+	/*Con LI especificamos cada elemento de la lista*/
+}
+
+
+/*PUEDE IR HASTA UNA IMAGEN DENTRO DE LOS "COSOS" ESPECIFICANDO LA URL  
+   CON Position cambiamos la posición de lo que está dentro de la lista	 */
+ul{
+	list-style-image: url("google.jpg");
+	list-style-position: outside;
+}
+
+/*PARRAFOS VAN CON P Y ALGUNAS PROPIEDADES QUE PODEMOS ESPECIFICAR*/
+p{
+	background-color: aqua;
+	color: aliceblue;
+	border: 2px solid red;
+	
+}
+
+body
+{}
