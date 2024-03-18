@@ -72,7 +72,7 @@ p{
   COLLAPSE: significa si el borde está pegado o no collapse/separate
   SPACING: espacio entre celdas 
   CAPTION SIDE: posición de la leyenda de la tabla
-  PADDING: espacio que haydentro del campo de texto*/
+  PADDING: espacio que hay dentro del campo de texto*/
 
 table{
 	border-collapse: collapse;
@@ -92,6 +92,76 @@ table{
 */
 input[type=text], input[type=number]{
 
+}
+
+/* Ejemplo página web: con Encabezado, Menú de navegación, Contenido, Contenido Principal y pie de página
+ENCABEZADO:
+header {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+
+MENÚ DE NAVEGACIÓN: La pseudoclase:HOVER hace referencia a lo que sucede cuando pasamos el mouse por un link
+nav {
+  overflow: hidden;
+  background-color: #333;
+}
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+CONTENIDO:
+.columna {
+  float: left;
+}
+.columna.lateral {
+  width: 25%;
+}
+.columna.principal {
+  width: 50%;
+}
+@media screen and (max-width: 600px) {
+  .columna.lateral, .columna.principal {
+    width: 100%;
+  }
+}								
+En HTML el contenido sería declarado así:
+<div class="fila">
+  <div class="columna lateral">
+    <h2>Columna 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+  </div>
+  <div class="columna principal">
+    <h2>Columna 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+  </div>
+  <div class="columna lateral">
+    <h2>Columna 3</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+  </div>
+</div>
+
+PIE DE PÁGINA:
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+} 
+
+
+
+
+*/
 }
 
 
